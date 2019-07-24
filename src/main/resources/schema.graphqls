@@ -1,0 +1,26 @@
+type Query {
+    customerById(id: ID!): Customer
+}
+
+type Customer {
+    id: ID!
+    name: String!
+    email: String!
+    orders: [Order]
+}
+
+type Order {
+    id: ID!
+    customer: Customer!
+    product: Product!
+    quantity: Int!
+    status: String!
+}
+
+type Product {
+    id: ID!
+    name: String
+    description: String
+    price: String
+}
+
