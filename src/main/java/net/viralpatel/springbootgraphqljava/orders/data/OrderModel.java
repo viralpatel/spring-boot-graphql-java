@@ -1,9 +1,6 @@
 package net.viralpatel.springbootgraphqljava.orders.data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.Objects;
 
@@ -11,7 +8,7 @@ import java.util.Objects;
 @Table(name = "orders")
 public class OrderModel {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private Long customerId;
