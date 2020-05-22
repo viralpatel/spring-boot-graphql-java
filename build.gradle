@@ -1,5 +1,5 @@
 plugins {
-    id 'org.springframework.boot' version '2.1.6.RELEASE'
+    id 'org.springframework.boot' version '2.3.0.RELEASE'
     id 'java'
 }
 
@@ -13,10 +13,9 @@ repositories {
 
 dependencies {
 
-    implementation 'com.graphql-java-kickstart:graphql-spring-boot-starter:5.9.0'
-    implementation 'com.graphql-java-kickstart:graphql-java-tools:5.6.0'
-    implementation 'com.graphql-java-kickstart:graphiql-spring-boot-starter:5.9.0'
-
+    implementation 'com.graphql-java-kickstart:graphql-spring-boot-starter:7.0.1'
+    implementation 'com.graphql-java-kickstart:graphiql-spring-boot-starter:7.0.1'
+    implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'com.h2database:h2'
 

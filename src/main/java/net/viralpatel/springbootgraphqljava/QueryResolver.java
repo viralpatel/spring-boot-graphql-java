@@ -1,6 +1,6 @@
 package net.viralpatel.springbootgraphqljava;
 
-import com.coxautodev.graphql.tools.GraphQLQueryResolver;
+import graphql.kickstart.tools.GraphQLQueryResolver;
 import net.viralpatel.springbootgraphqljava.customers.Customer;
 import net.viralpatel.springbootgraphqljava.customers.data.CustomerModel;
 import net.viralpatel.springbootgraphqljava.customers.data.CustomerRepository;

@@ -1,6 +1,6 @@
 package net.viralpatel.springbootgraphqljava.customers;
 
-import com.coxautodev.graphql.tools.GraphQLResolver;
+import graphql.kickstart.tools.GraphQLResolver;
 import net.viralpatel.springbootgraphqljava.orders.Order;
 import net.viralpatel.springbootgraphqljava.orders.data.OrderModel;
 import net.viralpatel.springbootgraphqljava.orders.data.OrderRepository;
