@@ -4,8 +4,8 @@ A reference implementation for GraphQL in Spring Boot using GraphQL Java Tools a
 
 #### Technologies
 1. Java 11
-2. Spring Boot 2.1.6
-3. Gradle 5.4.1
+2. Spring Boot 2.3.0
+3. Gradle 6.3
 4. GraphQL Java
 
 #### Build and run
